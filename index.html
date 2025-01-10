@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Command Prompt</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-    
-    <div id="Terminal">
-	<!-- This is where the terminal history will be displayed --!>
-	</div>
-
-    <!-- User input -->
-    <div class="CLI">
-        <span>C:\></span>
-        <input type="text" id="CLI_input" autofocus>
-    </div>
-
-    <script src="script.js"></script>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Browser Terminal</title>
+      <link rel="stylesheet" href="styles.css">
+      <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAgICAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACIgAAAAAAIAAAAAAAAAACAAAAAAAAACAAAAAAAAACAAAAAAAAAAAAAAAAAAABEREREREREREREREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon">
+   </head>
+   <body class="CLI_style">
+      <!-- This is where the terminal history will be displayed --!>
+      <div class="CLI_style" id="Terminal"></div>
+            
+      <!-- User input -->
+      <div class="CLI">
+         <span class="CLI_style">C:\></span>
+         <input type="text" class="CLI_style" id="CLI_input" autofocus>
+      </div>
+      <script src="script.js"></script>
+   </body>
 </html>

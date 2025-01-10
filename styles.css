@@ -1,32 +1,19 @@
-/* Setting body styles to match Win CMD */
 body {
-    background-color: black;
-    color: white;
-    font-family: 'Cascadia Mono', monospace;
     margin: 0;
     padding: 0;
 }
 
-/* Making input look like a cmd command line */
 input[type="text"] {
-    background-color: black; /* Set background to black */
-    color: white; /* Text color inside input box */
-    border: none; /* Remove border */
-    outline: none; /* Remove focus outline */
-    font-family: 'Cascadia Mono', monospace; /* Match font to Cascadia Mono */
-    font-size: 16px;
-
+    border: none;
+    outline: none;
 }
 
-/* Remove any special styling from default */
 span {
 	outline: none; 
 	border: none;
 	margin: 0;
     padding: 0;
 }
-
-
 
 .Terminal {
     padding-left: 20px;
@@ -36,12 +23,18 @@ span {
 }
 
 .Terminal_Item {
-    margin: 5px 0;
+    padding-left: 20px;
+	line-height: 0.2;
 }
 
 .CLI {
     padding-left: 20px;
-	padding-top: 20px;
+	padding-top: 5px;
 }
 
-
+.CLI_style {
+	font-family: 'Cascadia Mono', monospace; /* Match font to Cascadia Mono */
+    font-size: 16px;
+	color: white;
+	background-color: black;
+}
